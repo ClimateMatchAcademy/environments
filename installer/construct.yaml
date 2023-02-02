@@ -1,0 +1,14 @@
+name: climatematch
+company: Climatematch
+version: 0.0.0
+channels:
+  - conda-forge
+installer_filename: climatematch_environment_installer
+installer_type: all
+specs:
+  - python
+  - conda # Needed for extra_envs
+  - mamba
+# extra_envs:
+#   climatematch_test:
+#     environment_file: climatematch.yml.yaml

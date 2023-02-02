@@ -1,0 +1,8 @@
+name: climatematch
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - jupyter
+  - numpy
+  - pandas
